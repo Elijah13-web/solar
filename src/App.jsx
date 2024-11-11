@@ -14,13 +14,13 @@ import { useState } from 'react'
 import Africa from "./pages/Africa"
 import Connect from "./pages/Connect"
 import Navbar from "./pages/Navbar"
-// import Energy from './Pages/Energy'
+import Energy from "./pages/Energy"
 import Areas from "./pages/Areas"
 import Companies from "./pages/Compaines"
-// import Technicians from './Pages/Technicians'
+import Technicians from "./pages/Technicians"
 import Customers from "./pages/Customers"
-// import Save from './Pages/Save'
-// import Footer from './Pages/Footer'
+import Save from "./pages/Save"
+import Footer from "./pages/Footer"
 
 function App() {
 
@@ -30,13 +30,13 @@ function App() {
       <Navbar/>
       <Connect/>
         <Africa/>
-        {/* <Energy/> */}
+        <Energy/>
         <Areas/>
         <Companies/>
-        {/* <Technicians/> */}
+        <Technicians/>
         <Customers/>
-        {/* <Save/> */}
-        {/* <Footer/> */}
+        <Save/>
+        <Footer/>
     </div>
     </>
   )

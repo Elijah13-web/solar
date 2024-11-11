@@ -8,10 +8,10 @@ const Connect = () => {
       <section id="about">
 <div className='grid grid-cols-2'>
 <div className='pt-24 '>
-    <div className='rounded-full border-lime-700 border w-[340px] px-3'>
+    <div className='rounded-full border-lime-700 border w-[350px] px-3 '>
       <h1 className='text-lime-900'>Vetted solar technicians, instant connections</h1>
     </div>
-    <div className='text-white text-5xl lg:w-[500px] w-[350px] pt-5'>
+    <div className='text-white text-5xl lg:w-[500px] w-[360px] pt-6'>
     <h1>Connect with <span className='text-yellow-300'>skilled 
     local solar workforce</span>  in 
     record time!</h1>
@@ -20,8 +20,8 @@ const Connect = () => {
       <h1>Match your solar projects with vetted and trained 
       freelancers closest to your project location.</h1>
     </div>
-    <div className='py-8 cursor-pointer'>
-      <button className='rounded-full bg-yellow-300 p-2 w-[250px]'>See Solar Technician Footprint</button>
+    <div className='py-8 cursor-pointer '>
+      <button className='rounded-full bg-yellow-300 py-1 w-[260px]'>See Solar Technician Footprint</button>
     </div>
   </div>
 

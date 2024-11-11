@@ -15,4 +15,7 @@
     -ms-overflow-style: none; /* IE and Edge */
   }
   
- 
+  html {
+    scroll-behavior: smooth;
+  }
+  

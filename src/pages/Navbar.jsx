@@ -15,7 +15,7 @@ const Navbar = () => {
   };
 
   return (
-    <header className='fixed top-0 left-0 right-0 z-50 bg-green-950'>
+    <header className='fixed top-0 left-0 right-0 z-50 bg-green-950 overflow-hidden'>
       <Wrapper>
         <div>
           <nav className='flex justify-between items-center py-4 '>
@@ -42,7 +42,7 @@ const Navbar = () => {
           </nav>
 
           {menuOpen && (
-            <div className='flex flex-col md:hidden space-y-2 p-4 bg-white border border-gray-300 rounded-md'>
+            <div className='flex flex-col md:hidden space-y-4 p-4 bg-white border border-gray-300 rounded-md'>
               <h1 className='font-bold'><a href="#About Us">About Us</a></h1>
               <h1 className='font-bold'><a href="#For Companies">For Companies</a></h1>
               <h1 className='font-bold'><a href="#For Solar Technicians">For Solar Technicians</a></h1>

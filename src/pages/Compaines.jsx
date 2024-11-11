@@ -11,7 +11,7 @@ const Companies = () => {
             <div>
             <div>
               <h1 className='text-4xl pb-6'>For Companies</h1>
-              <h2 className='text-xl md:w-[650px] w-[380px] text-center md:text-start'>
+              <h2 className='text-xl md:w-[650px] w-[350px] text-center md:text-start'>
                 Find qualified, vetted solar professionals for your projects through 
                 Instollar. We match you with skilled installers who meet your specific 
                 needs, ensuring that your projects are completed efficiently and to the 
