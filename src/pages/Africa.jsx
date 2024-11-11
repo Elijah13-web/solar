@@ -8,7 +8,7 @@ const Africa = () => {
       <section id="About Us"> 
       <div className=''>
           <div className='py-14  justify-center items-center text-center'>
-            <h1 className='text-white md:text-5xl text-4xl py-6 md:w-[800px] w-[340px] mx-auto'>
+            <h1 className='text-white md:text-5xl text-4xl py-6 lg:w-[800px] md:w-[700px] w-[340px] mx-auto'>
               Instollar is <span className='text-yellow-300'>Africa's most trusted</span> solar energy workforce provider
             </h1>
             <h1 className='text-white md:w-[600px] w-[340px] mx-auto'>

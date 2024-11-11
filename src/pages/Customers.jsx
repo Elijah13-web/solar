@@ -11,7 +11,7 @@ const Customers = () => {
             <h1> What Our Customers Say</h1>
           </div>
           <div>
-            <h1 className='text-2xl font-semibold md:w-[650px] pb-8'>  Instollar has a highly impressive turnaround time - we had an initial requirement to cover 6 energy audits across 5 different states in Nigeria, and Instollar was very quick in responding to the request and providing installers</h1>
+            <h1 className='text-2xl font-semibold lg:w-[620px] pb-8'>  Instollar has a highly impressive turnaround time - we had an initial requirement to cover 6 energy audits across 5 different states in Nigeria, and Instollar was very quick in responding to the request and providing installers</h1>
 
             <h1 className='pb-4 text-2xl font-bold'>
             Mubarak

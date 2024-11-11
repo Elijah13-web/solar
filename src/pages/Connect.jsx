@@ -11,7 +11,7 @@ const Connect = () => {
     <div className='rounded-full border-lime-700 border w-[350px] px-3 '>
       <h1 className='text-lime-900'>Vetted solar technicians, instant connections</h1>
     </div>
-    <div className='text-white text-5xl lg:w-[500px] w-[360px] pt-6'>
+    <div className='text-white text-5xl md:w-[500px] w-[360px] pt-6'>
     <h1>Connect with <span className='text-yellow-300'>skilled 
     local solar workforce</span>  in 
     record time!</h1>

@@ -4,7 +4,7 @@ import { FaCheck } from 'react-icons/fa'
 
 const Technicians = () => {
   return (
-    <div className='bg-green-950'>
+    <div className='bg-green-950 overflow-hidden'>
       <Wrapper>
       <section id="For Solar Technicians"><div className='grid lg:grid-cols-2  text-white pb-24'>
           <div>
@@ -12,9 +12,9 @@ const Technicians = () => {
           </div>
           <div className='pt-14'>
             <h1 className='text-4xl font-serif py-6'>For Solar Technicians</h1>
-            <h1 className='text-xl md:w-[650px] w-[380px] pb-6'> Unlock your potential in the thriving solar industry. Join Instollar today 
+            <h1 className='text-xl md:w-[650px] w-[360px] pb-6'> Unlock your potential in the thriving solar industry. Join Instollar today 
             and watch your income grow multi-fold!</h1>
-            <div className='flex pb-5 md:w-[680px] w-[380px]'>
+            <div className='flex pb-5 md:w-[680px] w-[360px]'>
             <div className='flex items-center justify-center md:w-16 md:h-7 w-24 h-6 rounded-full mr-4 border border-yellow-300 font-bold'>
               <FaCheck className='text-yellow-300 font-bold'/>
             </div>

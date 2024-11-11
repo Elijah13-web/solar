@@ -15,7 +15,7 @@ const Navbar = () => {
   };
 
   return (
-    <header className='fixed top-0 left-0 right-0 z-50 bg-green-950 overflow-hidden'>
+    <header className='fixed top-0 left-0 right-2 z-50 bg-green-950'>
       <Wrapper>
         <div>
           <nav className='flex justify-between items-center py-4 '>
@@ -28,7 +28,7 @@ const Navbar = () => {
             >
               {menuOpen ? <IoMdClose className="mx-3" /> : <GiHamburgerMenu className="mx-3" />}
             </div>
-            <div className='hidden md:flex space-x-2 lg:space-x-10 md:space-x-5 text-white'>
+            <div className='hidden md:flex space-x-2 md:space-x-5 text-white'>
               <a href="#About Us" className='font-bold'> About Us</a>  
               <a href="#For Companies" className='font-bold'> For Companies</a>
               <a href="#For Solar Technicians" className='font-bold'>For Solar Technicians</a>
